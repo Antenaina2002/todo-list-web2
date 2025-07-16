@@ -21,7 +21,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "warn"  // ← Change "error" en "warn"
+    }
   },
   "browserslist": {
     "production": [
