@@ -9,12 +9,12 @@ on:
       - main
 
 jobs:
-  # Job 1 : Build
   build:
     name: Build Next.js Application
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
         node-version: [18.x, 20.x, 22.x]
 
