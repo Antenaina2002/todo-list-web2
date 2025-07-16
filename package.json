@@ -23,7 +23,7 @@
       "react-app/jest"
     ],
     "rules": {
-      "no-unused-vars": "warn"  // ← Change "error" en "warn"
+      "no-unused-vars": "warn"
     }
   },
   "browserslist": {
